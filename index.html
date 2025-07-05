@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>सावन सोमवार की शुभकामनाएं</title>
+    <!-- फोंट्स -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            background: linear-gradient(135deg, #FF9933, #FF671F, #E65100);
+            margin: 0;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            font-family: 'Tiro Devanagari Hindi', serif;
+        }
+        
+        #fireworks-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        .container {
+            background: #FFF8E1;
+            padding: 25px;
+            border-radius: 20px;
+            border: 5px double #D4AF37;
+            box-shadow: 0 0 35px rgba(128, 55, 0, 0.7);
+            max-width: 450px;
+            width: 100%;
+            box-sizing: border-box;
+            position: relative;
+            z-index: 1;
+            margin-top: 20px;
+        }
+        .heading-group {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+        .trishul-icon {
+            width: 30px;
+            height: 30px;
+            fill: #C70039;
+        }
+        h1 {
+            font-size: 2.2em;
+            margin: 0;
+            font-weight: 700;
+        }
+        .greeting-message {
+            font-size: 1.5em;
+            margin: 15px 0;
+            font-weight: bold;
+        }
+        
+        .fire-text-effect {
+            background: linear-gradient(90deg, #ffdd00, #ff8c00, #ff4500, #d9534f);
+            background-size: 200% auto;
+            color: #fff;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: fire-animation 2.5s linear infinite alternate;
+        }
+        
+        @keyframes fire-animation {
+            to {
+                background-position: 200% center;
+            }
+        }
+
+        .mahadev-gif {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin: 20px 0;
+            border: 4px solid #D4AF37;
+        }
+        .input-group p {
+            font-size: 1.1em;
+            color: #4A2311;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        #nameInput {
+            width: calc(100% - 24px);
+            padding: 12px;
+            font-size: 1.1em;
+            font-family: 'Poppins', sans-serif;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+        #whatsappShareBtn {
+            background: #25D366;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            font-family: 'Poppins', sans-serif;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+        #whatsappShareBtn:hover {
+            transform: scale(1.05);
+        }
+
+        /* --- विज्ञापन के लिए नया CSS --- */
+        .ad-container {
+            margin: 20px auto 15px auto; /* ऊपर-नीचे स्पेस और बीच में लाने के लिए */
+            width: 320px;
+            height: 50px;
+            position: relative;
+            z-index: 1; /* ताकि पटाखे के ऊपर दिखे */
+        }
+
+        footer {
+            margin: 0 0 10px 0; /* ऊपर का मार्जिन हटाया गया */
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            font-size: 1.1em;
+            text-shadow: 2px 2px 4px #000;
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="fireworks-container"></div>
+
+    <div class="container">
+        <!-- ग्रीटिंग कार्ड का सारा कंटेंट यहाँ है -->
+        <div class="heading-group">
+            <svg class="trishul-icon" viewBox="0 0 512 512"><path d="M495.4 68.6C480.8 54 459.2 48 438.6 48h-11.2c-12.7 0-25.2 3.8-36.2 11.2L256 160l-135.2-100.8C109.8 51.8 97.3 48 84.6 48H73.4c-20.6 0-42.2 6-56.8 20.6C1.9 83.2 0 102.8 0 122.2v11.2c0 12.7 3.8 25.2 11.2 36.2L112 304.8V448c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V304h64v144c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V304.8l100.8-135.2c7.4-11 11.2-23.5 11.2-36.2v-11.2c0-19.4-1.9-39-16.6-53.6z"/></svg>
+            <h1 id="mainHeading" class="fire-text-effect">सावन के पहले सोमवार की</h1>
+            <svg class="trishul-icon" viewBox="0 0 512 512" style="transform: scaleX(-1);"><path d="M495.4 68.6C480.8 54 459.2 48 438.6 48h-11.2c-12.7 0-25.2 3.8-36.2 11.2L256 160l-135.2-100.8C109.8 51.8 97.3 48 84.6 48H73.4c-20.6 0-42.2 6-56.8 20.6C1.9 83.2 0 102.8 0 122.2v11.2c0 12.7 3.8 25.2 11.2 36.2L112 304.8V448c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V304h64v144c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V304.8l100.8-135.2c7.4-11 11.2-23.5 11.2-36.2v-11.2c0-19.4-1.9-39-16.6-53.6z"/></svg>
+        </div>
+        <div id="greetingMessage" class="greeting-message fire-text-effect">आप सभी को हार्दिक शुभकामनाएं</div>
+        <img src="Mahadev.gif" alt="Mahadev Animated GIF" class="mahadev-gif">
+        <div id="nameForm" class="input-group">
+            <p>इस शुभकामना को अपने नाम से भेजने के लिए, नीचे अपना नाम लिखें:</p>
+            <input type="text" id="nameInput" placeholder="यहाँ अपना नाम लिखें...">
+            <a id="whatsappShareBtn" href="#" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.894 11.892-1.99 0-3.903-.52-5.586-1.456l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 4.315 1.731 6.086l.001.004 1.495 2.483-1.002 3.637 3.732-1.001z"/></svg>
+                WhatsApp पर भेजें
+            </a>
+        </div>
+    </div>
+
+    <!-- ===== यहाँ आपका विज्ञापन कोड लगाया गया है ===== -->
+    <div class="ad-container">
+        <script type="text/javascript">
+            atOptions = {
+                'key' : '9e6a9b5ea1e9f23747b0b97210dfd147',
+                'format' : 'iframe',
+                'height' : 50,
+                'width' : 320,
+                'params' : {}
+            };
+        </script>
+        <script type="text/javascript" src="//www.highperformanceformat.com/9e6a9b5ea1e9f23747b0b97210dfd147/invoke.js"></script>
+    </div>
+    <!-- ============================================= -->
+
+    <footer>
+        Made with ❤️ Mahakal
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/fireworks-js/dist/fireworks.js"></script>
+    <script>
+        const fireworksContainer = document.getElementById('fireworks-container');
+        const fireworks = new Fireworks(fireworksContainer, {
+            rocketsPoint: 50, hue: { min: 0, max: 60 }, delay: { min: 20, max: 40 },
+            intensity: 30, trace: 4, explosion: 8, gravity: 1.5,
+            opacity: 0.8, autoresize: true,
+        });
+        fireworks.start();
+        
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const name = urlParams.get('name');
+            if (name) {
+                const decodedName = decodeURIComponent(name.replace(/\+/g, ' '));
+                document.getElementById('mainHeading').innerHTML = "ॐ नमः शिवाय";
+                const greetingMsg = document.getElementById('greetingMessage');
+                greetingMsg.innerHTML = `<strong style="background: none; -webkit-text-fill-color: initial; color: #C70039;">${decodedName}</strong> की तरफ से आपको और आपके परिवार को, <br>सावन सोमवार की हार्दिक शुभकामनाएं!`;
+                greetingMsg.classList.remove('fire-text-effect');
+                document.getElementById('nameForm').style.display = 'none';
+            }
+        };
+
+        const nameInput = document.getElementById('nameInput');
+        const whatsappShareBtn = document.getElementById('whatsappShareBtn');
+        nameInput.addEventListener('input', function() {
+            const name = nameInput.value.trim();
+            if (name === "") {
+                whatsappShareBtn.style.display = 'none';
+            } else {
+                const baseUrl = window.location.origin + window.location.pathname;
+                const shareUrl = `${baseUrl}?name=${encodeURIComponent(name)}`;
+                const message = `*${name}* की तरफ से आप सभी को सावन के पहले सोमवार की हार्दिक शुभकामनाएं! 🙏📿%0A%0A✨ अपनी विशेष शुभकामनाएं देखने के लिए नीचे दिए गए लिंक पर क्लिक करें: 👇%0A${shareUrl}`;
+                const whatsappLink = `https://api.whatsapp.com/send?text=${message}`;
+                whatsappShareBtn.href = whatsappLink;
+                whatsappShareBtn.style.display = 'inline-flex';
+                setTimeout(() => {
+                    whatsappShareBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }, 100);
+            }
+        });
+    </script>
+
+</body>
+</html>
